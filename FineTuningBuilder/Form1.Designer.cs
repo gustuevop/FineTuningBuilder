@@ -57,37 +57,43 @@
             // 
             // txt_Prompt
             // 
+            this.txt_Prompt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Prompt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Prompt.Location = new System.Drawing.Point(14, 42);
             this.txt_Prompt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Prompt.Multiline = true;
             this.txt_Prompt.Name = "txt_Prompt";
-            this.txt_Prompt.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txt_Prompt.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txt_Prompt.Size = new System.Drawing.Size(1020, 83);
             this.txt_Prompt.TabIndex = 0;
             this.txt_Prompt.WordWrap = false;
             // 
             // txt_Completion
             // 
+            this.txt_Completion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Completion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Completion.Location = new System.Drawing.Point(13, 176);
             this.txt_Completion.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Completion.Multiline = true;
             this.txt_Completion.Name = "txt_Completion";
-            this.txt_Completion.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txt_Completion.Size = new System.Drawing.Size(1020, 83);
+            this.txt_Completion.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txt_Completion.Size = new System.Drawing.Size(1020, 179);
             this.txt_Completion.TabIndex = 1;
             this.txt_Completion.WordWrap = false;
             // 
             // txt_FineTuning
             // 
+            this.txt_FineTuning.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_FineTuning.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_FineTuning.Location = new System.Drawing.Point(16, 316);
+            this.txt_FineTuning.Location = new System.Drawing.Point(16, 409);
             this.txt_FineTuning.Margin = new System.Windows.Forms.Padding(4);
             this.txt_FineTuning.Multiline = true;
             this.txt_FineTuning.Name = "txt_FineTuning";
             this.txt_FineTuning.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txt_FineTuning.Size = new System.Drawing.Size(1020, 342);
+            this.txt_FineTuning.Size = new System.Drawing.Size(1020, 249);
             this.txt_FineTuning.TabIndex = 3;
             this.txt_FineTuning.WordWrap = false;
             // 
@@ -112,7 +118,7 @@
             // lbl_FineTuning
             // 
             this.lbl_FineTuning.AutoSize = true;
-            this.lbl_FineTuning.Location = new System.Drawing.Point(14, 296);
+            this.lbl_FineTuning.Location = new System.Drawing.Point(11, 389);
             this.lbl_FineTuning.Name = "lbl_FineTuning";
             this.lbl_FineTuning.Size = new System.Drawing.Size(74, 16);
             this.lbl_FineTuning.TabIndex = 5;
@@ -120,7 +126,8 @@
             // 
             // btn_Montar
             // 
-            this.btn_Montar.Location = new System.Drawing.Point(924, 266);
+            this.btn_Montar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Montar.Location = new System.Drawing.Point(927, 362);
             this.btn_Montar.Name = "btn_Montar";
             this.btn_Montar.Size = new System.Drawing.Size(110, 43);
             this.btn_Montar.TabIndex = 2;
@@ -136,6 +143,7 @@
             this.Controls.Add(this.pnl_Principal);
             this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(1065, 714);
             this.Name = "frm_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fine Tuning Builder";
